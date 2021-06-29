@@ -16,16 +16,17 @@ This Master's Thesis has been developed within the framework of the "Master in C
 
 ## Repository elements
 In this repository there is 1 folders:
-* **iac/**: in this directory we find the code written in .yml to run with Terraform.
+* **iac/**: in this directory we find the code written in .tf to run with Terraform.
 
 ## Requirements
 It is mandatory to have already installed [Terraform](https://www.terraform.io/)
-
+It is necessary to complete the information of variables.tf before execute it.
 ## Commands
 Before to lauch the comands it is important to login in Azure via console.
 ```console
   $az login
 ```
+Due to the project isn't initiated in your cloud environment, first time you want to execute it, you have to initiate the project.
 ```console
   $terraform init
 ```
